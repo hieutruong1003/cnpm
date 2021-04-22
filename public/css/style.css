@@ -1,0 +1,234 @@
+	body {
+	  /*background-color: #b5f6ff80;*/
+	  margin: 0;
+	  font-size: 28px;
+	  font-family: font-family: Georgia, serif;
+	}
+
+	.header {
+	  background-image: linear-gradient(#4c00ff, #106390ba);
+	  text-align: center;
+	  overflow: hidden;
+	}
+	.header img{
+		width: 100%;	
+	}
+	.header table{
+		overflow: hidden;
+		text-align: center;
+		padding: 0px;
+		width: 100%;
+		margin: auto;
+		border-collapse: collapse;
+		margin-bottom: 10px;
+		box-shadow: 0px 0px 15px 0px #00d3ff;
+	}
+	.header th{
+		background-color: #00639e;
+		text-decoration: none;
+		height: 48px;
+		line-height: 48px;
+	}
+	.header .hll:hover{
+		background-color: #00b6ff80;
+	}
+	.heder th .btnLogin{
+		margin-right: 20%;
+		width: 37%;
+	}
+	.header th button{
+		display: block;
+		color: #220fbb80;
+		font-weight: bold;
+		background-color: red;
+		border-radius: 10px;
+		border: 2px solid white;
+	}
+	.header th button:hover{
+		color: red	;
+		background-color: #00639e;
+	}
+	.header th a{
+		color: #ffffff;
+		text-decoration: none;
+		font-size: 15px;
+	}
+	.menu-item{
+		float: left;
+		overflow: hidden;
+		box-sizing: border-box;		
+	}
+	
+	
+	.content{
+		display: flex;
+		padding: 30px;
+		box-sizing: border-box;
+		width: 90%;
+		margin: auto;
+	}
+
+	#right{
+		/*background-color: #b4d6b4;*/
+		flex: 50%;
+		margin: 0px 10px;
+		border: 1px solid #c1c1c14d;
+		overflow: hidden;
+		/*box-shadow: 0px 0px 15px 0px black;*/
+	}
+	
+	#left ul {
+	  	flex: 1%;
+	  	list-style-type: none;
+	  	margin: 0px 30px;
+	  	padding: 0;
+	  	/*background-color: blue;*/
+	  	/*border: 1px solid #555;*/
+	  	box-shadow: 0px 0px 5px 0px #a9a6a6;
+	}
+	#XGXN button,#TKB button,#TTCN button ,#TKSV button , .bangDiem button {
+		width: 100%;
+		margin-right: 1%;
+	}
+
+	#left li button {
+	  	display: block;
+	  	color: #000;
+	  	padding: 15px 26px;
+	  	text-decoration: none;
+	  	font-size: 15px;
+	  	width: 100%;
+	  	border:none;
+	  	background-color: #0175b2;
+	  	border-bottom: 1px solid white;
+
+	}
+
+	#XGXN li,#TKB li,#TTCN li,#TKSV li, .bangDiem li {
+	  	border-bottom: 1px solid #555;
+
+	}
+
+	#left li:last-child{
+	  	border-bottom: none;
+	}
+
+	#left li button:hover{
+	  	/*background-color: #555;*/
+	  	color: white;
+	  	/*box-shadow: 0px 0px 15px 0px #edff00;*/
+
+	}
+	
+	#title{
+		height: 48px;
+		line-height: 48px;
+		background-color: #0175b2;
+		width: 100%;
+		margin-top: 0;
+		text-align: center;
+		font-size: 17px;
+		border-bottom: 1px solid white;
+		font-weight: bold;
+		color: white;
+	}
+	.text-right{
+		font-size: 15px;
+		margin-left: 13px;
+		text-decoration: none;
+	}
+	.text-menu{
+		margin-left: 13px;
+		font-size: 15px;
+		text-decoration: none;
+	}
+	
+	 .bangDiem table,#XGXN table,#TKB table,#TTCN table,#TKSV table, .bangDiem td, #XGXN td,#TKB td,#TTCN td,#TKSV td, .bangDiem th, #XGXN th,#TKB th,#TTCN th,#TKSV th {
+	  	border: 1px solid #c1c1c14d;
+
+	}
+	.bangDiem th, #XGXN th,#TKB th,#TTCN th,#TKSV th{
+		color: white;
+	}
+
+	#XGXN table,#TKB table,#TTCN table ,#TKSV table, .bangDiem table{
+	  	border-collapse: collapse;
+	  	width: 98%;
+	  	margin-left: 1%;
+	  	margin-top: 10px;
+	  	margin-bottom: 10px;
+
+	}
+	td.titlebar {
+            font-weight: bold;
+            font-size: 15px;
+            color: #black;
+            text-decoration: none;
+        }
+
+	#XGXN td,#TKB td,#TTCN td,#TKSV td, .bangDiem td {
+	  	vertical-align: center;
+	  	padding-left: 3px;
+	  	height: 20px;
+	  	font-size: 11px;
+	}
+	#XGXN th,#TKB th,#TTCN th,#TKSV th, .bangDiem th{
+		background-color: #0175b2;
+		height: 40px;
+		font-size: 13px;
+	}
+	#XD
+	{
+    	width: 100%;
+	}
+	.hieu-top{
+	    width: 100%;
+	    border: 1px solid rgb(54, 131, 231)  ;
+	    border-radius: 5px;
+	    background-color: rgb(87, 135, 206);
+	    box-shadow: rgb(54, 131, 231) 0px 2px 1px 1px;
+	    position: relative;
+	}
+	.hieu-top img{
+	    margin-top: 28px;
+	    float: left;
+	    padding: 0px 10px;
+	}
+	.hieu-content{
+	    clear: both;
+	}
+	.hieu-top h1{
+	    box-sizing: border-box;
+	}
+	.hieu-content h5{
+	    background-color: rgb(54, 131, 231);
+	    padding: 10px 20px;
+	    color: white;
+	}
+	.hieu-content p ,#XGXN p,#TKB p,#TTCN p,#TKSV p{
+	    color: blue;
+	    font-family: Verdana, Geneva, Tahoma, sans-serif;
+	    font-size: 15px;
+	    font-style: italic;
+	}
+	.hieu-content .table-top{
+	    margin: auto;
+	    width: 50%;
+	    color: blue;
+	}
+	.table-top select{
+	    color: blue;
+	}
+	.hieu-content .table-top .canPhai{
+	    text-align: right;
+	    font-size: 15px;
+		margin-left: 13px;
+	}
+	.table-top .canGiua{
+	    margin: auto;
+	    font-size: 15px;
+		margin-left: 13px;
+	}
+
+	
+
